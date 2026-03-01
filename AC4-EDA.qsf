@@ -1,0 +1,108 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+# Date created = 20:29:37  February 25, 2026
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		AC4-EDA_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6E22C8
+set_global_assignment -name TOP_LEVEL_ENTITY test3
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:29:37  FEBRUARY 25, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name EDA_SIMULATION_TOOL "Active-HDL (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name LL_ROOT_REGION ON -entity "AC4-EDA" -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -entity "AC4-EDA" -section_id "Root Region"
+set_global_assignment -name MISC_FILE "D:/FPGA/AC4-EDA_Board/AC4-EDA.dpf"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_23 -to CLK_50MHz
+set_location_assignment PIN_24 -to CLK_16MHz
+set_location_assignment PIN_90 -to K2
+set_location_assignment PIN_91 -to K3
+set_location_assignment PIN_87 -to K4
+set_location_assignment PIN_86 -to K5
+set_location_assignment PIN_72 -to LED_D3
+set_location_assignment PIN_73 -to LED_D4
+set_location_assignment PIN_74 -to LED_D5
+set_location_assignment PIN_80 -to LED_D6
+set_location_assignment PIN_83 -to LED_D7
+set_location_assignment PIN_28 -to p28
+set_location_assignment PIN_30 -to p30
+set_location_assignment PIN_32 -to p32
+set_location_assignment PIN_33 -to p33
+set_location_assignment PIN_38 -to p38
+set_location_assignment PIN_39 -to p39
+set_location_assignment PIN_42 -to p42
+set_location_assignment PIN_43 -to p43
+set_location_assignment PIN_44 -to p44
+set_location_assignment PIN_46 -to p46
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL ON
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_location_assignment PIN_49 -to p49
+set_location_assignment PIN_89 -to p89
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_location_assignment PIN_115 -to p115
+set_location_assignment PIN_119 -to p119
+set_location_assignment PIN_120 -to p120
+set_location_assignment PIN_121 -to p121
+set_location_assignment PIN_124 -to p124
+set_location_assignment PIN_125 -to p125
+set_location_assignment PIN_126 -to p126
+set_location_assignment PIN_127 -to p127
+set_location_assignment PIN_128 -to p128
+set_location_assignment PIN_129 -to p129
+set_location_assignment PIN_132 -to p132
+set_location_assignment PIN_133 -to p133
+set_location_assignment PIN_135 -to p135
+set_location_assignment PIN_136 -to p136
+set_location_assignment PIN_137 -to p137
+set_location_assignment PIN_138 -to p138
+set_global_assignment -name SYSTEMVERILOG_FILE src/pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE src/test3.sv
+set_global_assignment -name SYSTEMVERILOG_FILE src/test1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE src/test2.sv
+set_global_assignment -name SDC_FILE src/test2_timing_constraints.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE src/UART_RX.sv
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
