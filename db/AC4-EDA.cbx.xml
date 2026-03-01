@@ -1,6 +1,0 @@
-<?xml version="1.0" ?>
-<LOG_ROOT>
-	<PROJECT NAME="AC4-EDA">
-		<CBX_INST_ENTRY INSTANCE_NAME="|test3|altsyncram:WideOr6_rtl_0" CBX_FILE_NAME="altsyncram_o6v.tdf"/>
-	</PROJECT>
-</LOG_ROOT>

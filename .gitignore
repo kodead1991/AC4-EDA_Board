@@ -16,34 +16,34 @@
 *.sof
 
 
-/NEM_v1/*.summary
-/NEM_v1/*.bdf
-/NEM_v1/*.txt
-/NEM_v1/*.log
-/NEM_v1/*.cfg
-/NEM_v1/*.mgf
-/NEM_v1/*.order
-/NEM_v1/*.erp
-/NEM_v1/*.erf
-/NEM_v1/*.lib*
-/NEM_v1/*.ini
-/NEM_v1/*.epr
-/NEM_v1/*.cmd
-/NEM_v1/*.opv
-/NEM_v1/*.opt
-/NEM_v1/*.pin
-/NEM_v1/*.smsg
-/NEM_v1/*.rep
-/NEM_v1/*.rlb
-/NEM_v1/*.jdi
+/*.summary
+/*.bdf
+/*.txt
+/*.log
+/*.cfg
+/*.mgf
+/*.order
+/*.erp
+/*.erf
+/*.lib*
+/*.ini
+/*.epr
+/*.cmd
+/*.opv
+/*.opt
+/*.pin
+/*.smsg
+/*.rep
+/*.rlb
+/*.jdi
 
 
 
 # Quartus directories
 
-/NEM_v1/atom_netlists/
-/NEM_v1/db/
-/NEM_v1/greybox_tmp/
-/NEM_v1/incremental_db/
-# /NEM_v1/simulation/
-/NEM_v1/testbench_files/
+/atom_netlists/
+/db/
+/greybox_tmp/
+/incremental_db/
+#/simulation/
+/testbench_files/
